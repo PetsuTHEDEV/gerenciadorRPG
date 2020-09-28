@@ -1,6 +1,6 @@
 # gerenciadorRPG
-Esse repositório tem como objetivo desenvolver para gerenciador de RPG.
-
+  Tem muitos gerenciadores de jogos de RPG e muito bom ainda por cima, porém, alguns são pagos ou totalmente em inglês. Então, não quero fazer um projeto grande
+  aaaaaaaaaaaa
 ## Missões
 
 - [ ] Desenvolver o chat para contar as histórias do RPG
