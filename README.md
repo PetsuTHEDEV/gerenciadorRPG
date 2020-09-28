@@ -8,5 +8,5 @@ Esse repositório tem como objetivo desenvolver para gerenciador de RPG.
 - [ ] Defenir a dois tipo de usuário: 
 (Mestre: Teria opções de gerenciar o RPG, Player: Participar da história e fazer missões)
 - [ ] Desenvolver comandos para o Mestre
-- [ ] Criar um sistema de Inventário
+- [ ] Criar um sistema de Inventário e Itens funcionais
 - [ ] Criar um sistema de Monstro
