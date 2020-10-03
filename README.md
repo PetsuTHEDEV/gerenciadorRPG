@@ -67,24 +67,24 @@ Menu < --------- > Sair
 	
 **OFENCISO**
 	
-	- Ataque: São a força do ataque normal de cada player, ele não é bom conta armadura como já explicado, todos vão ter no mínimo 20 de ataque, que é o dano que vai ser causado em um monstro em média.
-	- Magia: São a força magica de personagens mágicos, ele não é bom com personagem que tem resistência mágica.
-	- Roubo de vida: dependendo do dano causado uma porcentagem vai ser adicionada como regeneração na vida do personagem.
-	- Sangramento: Ao ataque marca o personagem para leva dano ao longo do turno.
+- Ataque: São a força do ataque normal de cada player, ele não é bom conta armadura como já explicado, todos vão ter no mínimo 20 de ataque, que é o dano que vai ser causado em um monstro em média.
+- Magia: São a força magica de personagens mágicos, ele não é bom com personagem que tem resistência mágica.
+- Roubo de vida: dependendo do dano causado uma porcentagem vai ser adicionada como regeneração na vida do personagem.
+- Sangramento: Ao ataque marca o personagem para leva dano ao longo do turno.
 	
 **DEFENSIVO**
 	
-	- Armadura: Esse atributo tem como objetivo diminui o dano de ataque que os monstros causaram, ele não é muito efetivo contra danos mágicos.
-	- Vida: A vida é um atributo que diferente da armadura que reduz o dano de ataque, a vida apenas aumenta sua vida padrão e perde a qualidade exata do ataque. Ao seja, é a vida adicional.
-	- Regeneração de Vida: É a quantidade de vida regenerada pelo personagem, essa é exclusiva para alguns personagens, sua vida é regenerada por turno dependendo de quanto tempo demorou para chegar no seu turno.
-	- Resistência Mágica: É igual a armadura, porém, ele vai diminui o dano de magia causado por monstros, ele não é muito efetivo contra dano de ataque.
+- Armadura: Esse atributo tem como objetivo diminui o dano de ataque que os monstros causaram, ele não é muito efetivo contra danos mágicos.
+- Vida: A vida é um atributo que diferente da armadura que reduz o dano de ataque, a vida apenas aumenta sua vida padrão e perde a qualidade exata do ataque. Ao seja, é a vida adicional.
+- Regeneração de Vida: É a quantidade de vida regenerada pelo personagem, essa é exclusiva para alguns personagens, sua vida é regenerada por turno dependendo de quanto tempo demorou para chegar no seu turno.
+- Resistência Mágica: É igual a armadura, porém, ele vai diminui o dano de magia causado por monstros, ele não é muito efetivo contra dano de ataque.
 
 **NEUTRO**
 
-	- Inteligência: Você tem a capacidade de melhorar equipamentos, melhorando o que o que determinado item de ataque ou defensivo faz, o bônus de melhora vai depender do nível de inteligência que você tem. Só funciona fora de batalhas e você só pode melhora item uma vez a cada 5 níveis.
-	- Sorte: Aumenta a sorte de encontrar um item bom, caso essa o personagem que abra o baú.
-	- Fé: Você ganha bônus em algum de seus atributos em um turno que você está prestes sê a morrer, quanto maior a fé, maior é esse bônus.
-	- Agilidade: Você torna-se mais rápido sendo capaz de desviar de ataque de monstro que serão direcionado até você, você com muita agilidade como já disse pode desviar de ataque, mas com um pouco de agilidade você pode diminuir o dano causado em você com ataque que pegaram de raspão. OBSERVAÇÃO: a cada 10 pontos de armadura você diminui 5 pontos de agilidade.
+- Inteligência: Você tem a capacidade de melhorar equipamentos, melhorando o que o que determinado item de ataque ou defensivo faz, o bônus de melhora vai depender do nível de inteligência que você tem. Só funciona fora de batalhas e você só pode melhora item uma vez a cada 5 níveis.
+- Sorte: Aumenta a sorte de encontrar um item bom, caso essa o personagem que abra o baú.
+- Fé: Você ganha bônus em algum de seus atributos em um turno que você está prestes sê a morrer, quanto maior a fé, maior é esse bônus.
+- Agilidade: Você torna-se mais rápido sendo capaz de desviar de ataque de monstro que serão direcionado até você, você com muita agilidade como já disse pode desviar de ataque, mas com um pouco de agilidade você pode diminuir o dano causado em você com ataque que pegaram de raspão. **OBSERVAÇÃO:** a cada 10 pontos de armadura você diminui 5 pontos de agilidade.
 
 ### Inventário e Itens
 
@@ -92,24 +92,24 @@ Menu < --------- > Sair
 
 **OFENSIVO**
 
-	- Espada: +10 de dano de ataque, não ativável.
-	- Faca: +5 de dano de ataque, não ativável.
-	- Cajado de Luz: +10 de magia, ativável (Causa cegueira)
-	- Cajado de Planta: +5 de magia, ativável (Causa enraizamento)
+- Espada: +10 de dano de ataque, não ativável.
+- Faca: +5 de dano de ataque, não ativável.
+- Cajado de Luz: +10 de magia, ativável (Causa cegueira)
+- Cajado de Planta: +5 de magia, ativável (Causa enraizamento)
 
 **DEFENSIVO**
 
-	- Escudo: +20 de armadura
-	- Armadura: +50 de armadura
-	- Capa de Fogo: +20 de resistência mágica, ativável (Deixa o inimigo em chamas, Comba com sangramento)
-	- Capa de Invisibilidade: +5 de resistência mágica (Deixa invisível, pode ser atingido por golpes diretos, mas em área)
+- Escudo: +20 de armadura
+- Armadura: +50 de armadura
+- Capa de Fogo: +20 de resistência mágica, ativável (Deixa o inimigo em chamas, Comba com sangramento)
+- Capa de Invisibilidade: +5 de resistência mágica (Deixa invisível, pode ser atingido por golpes diretos, mas em área)
 
 **NEUTRO**
 
-	- Porção de vida: Ativável (+ 100 da vida)
-	- Porção de Força: Ativável (+50 Ataque)
-	- Amuleto do Sol: Ativável (+60 vidas adicional por grupo)
-	- Amuleto de Fuga: Ativável (Deixa invulnerável, mas não pode atacar)
+- Porção de vida: Ativável (+ 100 da vida)
+- Porção de Força: Ativável (+50 Ataque)
+- Amuleto do Sol: Ativável (+60 vidas adicional por grupo)
+- Amuleto de Fuga: Ativável (Deixa invulnerável, mas não pode atacar)
 
 ### Monstro
 
@@ -121,11 +121,11 @@ Menu < --------- > Sair
 
 #### OBSERVAÇÕES
 
-	- Temos monstro que foca um alvo e temos monstro que ataque em área, os que focam um alvo devera focar primeiramente o personagem que está na frente e vai causar todo o dano que ele tem, já o que ataca quem área vai dividir o dano nós três da frente, mas sendo o maior dano no da frente.
+- Temos monstro que foca um alvo e temos monstro que ataque em área, os que focam um alvo devera focar primeiramente o personagem que está na frente e vai causar todo o dano que ele tem, já o que ataca quem área vai dividir o dano nós três da frente, mas sendo o maior dano no da frente.
 	
-	- Temos habilidade de cada monstro, onde eles podem causar paralisia, sangramento, loucura, cura... Que escolhe quando usar essa habilidade é o mestre.
+- Temos habilidade de cada monstro, onde eles podem causar paralisia, sangramento, loucura, cura... Que escolhe quando usar essa habilidade é o mestre.
 	
-	- Temos também cada tipo de monstro os que dão dano mágico, os que dão dano fico, os que tem os dois e os que roubam vida dos oponentes.
+- Temos também cada tipo de monstro os que dão dano mágico, os que dão dano fico, os que tem os dois e os que roubam vida dos oponentes.
 
 ### Posicionamento
 
@@ -143,28 +143,28 @@ Menu < --------- > Sair
 
 **Ruins**
 
-	- Atordoado: Você fica parado sem poder atacar por dois 
-	ou três turnos.
-	- Loucura: Você ataca um dos aliados mais próximo por
-	dois turnos.
-	- Cego: Você ainda pode atacar, mas não vai poder escolher
-	em quem e pode atingir um de seus amigos. Dura dois turnos.
-	- Preso: Você não pode se mover então sofrerá mais dano, 
-	mas pode usar habilidade de proteção e ataque.
-	- Fraqueza: seus ataques darem menos dano e você recebera
-	mais danos.
-	- Sangramento: Você leva danos aos poucos durante três turnos.
+- Atordoado: Você fica parado sem poder atacar por dois 
+ou três turnos.
+- Loucura: Você ataca um dos aliados mais próximo por
+dois turnos.
+- Cego: Você ainda pode atacar, mas não vai poder escolher
+em quem e pode atingir um de seus amigos. Dura dois turnos.
+- Preso: Você não pode se mover então sofrerá mais dano, 
+mas pode usar habilidade de proteção e ataque.
+- Fraqueza: seus ataques darem menos dano e você recebera
+mais danos.
+- Sangramento: Você leva danos aos poucos durante três turnos.
 
 **Boas**
 
-	- Invulnerável: Você não sofrerá dano durante dois turnos.
-	- Velocista: Sua agilidade aumentara, fazendo com que você
-	não seja acertado.
-	- Invisível: Você ficara invisível e poderá atacar, sem ser
-	atacado por tiro direcionado a você.
-	- Vingador: Você vai retribuir todo o dano que você levou.
-	- Absorção: Você vai absorver todo o dano causado em você 
-	durante dois turnos e vai mandar de voltar. 
+- Invulnerável: Você não sofrerá dano durante dois turnos.
+- Velocista: Sua agilidade aumentara, fazendo com que você
+não seja acertado.
+- Invisível: Você ficara invisível e poderá atacar, sem ser
+atacado por tiro direcionado a você.
+- Vingador: Você vai retribuir todo o dano que você levou.
+- Absorção: Você vai absorver todo o dano causado em você 
+durante dois turnos e vai mandar de voltar. 
 
 ### Classes
 
