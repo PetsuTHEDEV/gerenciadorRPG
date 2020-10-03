@@ -139,7 +139,7 @@ E suporte e magos vão dar dano ou vida adicional.
  
 ### Condições
 
-	Condições são estados alterados do personagem, causados por uma situação, devido a algum ataque de um monstro.
+Condições são estados alterados do personagem, causados por uma situação, devido a algum ataque de um monstro.
 
 **Ruins**
 
