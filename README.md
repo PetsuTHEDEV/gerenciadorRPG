@@ -186,3 +186,5 @@ algumas habilidades e atributos exclusivos para elas, então vamos para algumas 
 O sistema de luta vai ser o mais difícil, pois, nele que vamos adicionar a parte que vai ter a mecânica do jogo,
 a luta de turnos, onde cada um ter sua vez de jogar e tem também as habilidades, classes e itens que vão 
 ajudar a matar o monstro e ganhar experiência para passar desafios futuros. 
+
+<span style="color:blue">some *blue* text</span>.
