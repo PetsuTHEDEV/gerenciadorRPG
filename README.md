@@ -143,17 +143,17 @@ Menu < --------- > Sair
 
 **Ruins**
 
-- Atordoado: Você fica parado sem poder atacar por dois 
+* Atordoado: Você fica parado sem poder atacar por dois 
 ou três turnos.
-- Loucura: Você ataca um dos aliados mais próximo por
+* Loucura: Você ataca um dos aliados mais próximo por
 dois turnos.
-- Cego: Você ainda pode atacar, mas não vai poder escolher
+* Cego: Você ainda pode atacar, mas não vai poder escolher
 em quem e pode atingir um de seus amigos. Dura dois turnos.
-- Preso: Você não pode se mover então sofrerá mais dano, 
+*Preso: Você não pode se mover então sofrerá mais dano, 
 mas pode usar habilidade de proteção e ataque.
-- Fraqueza: seus ataques darem menos dano e você recebera
+* Fraqueza: seus ataques darem menos dano e você recebera
 mais danos.
-- Sangramento: Você leva danos aos poucos durante três turnos.
+* Sangramento: Você leva danos aos poucos durante três turnos.
 
 **Boas**
 
