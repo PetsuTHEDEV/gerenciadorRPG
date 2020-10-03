@@ -1,10 +1,10 @@
-# gerenciador de RPG - PROGRAMAÇÃO
+# Gerenciador de RPG - PROGRAMAÇÃO
 
   Aqui vamos detalhar algumas tarefas que o programador
   ter que desenvolver e pensar na hora de programar,
   como desenvolvimento do chat e etc.
   
-## Missões
+## Itens para Programar
 
 - [ ] Desenvolver o chat para contar as histórias do RPG
 - [ ] Criar opções para o chat (Fala, Sussurro, Narração)
@@ -62,7 +62,7 @@ Menu < --------- > Sair
 
 ### Atributos
 
-	Atributos são as qualidades e característica que são próprias para cada player. Então, vamos desenvolver
+Atributos são as qualidades e característica que são próprias para cada player. Então, vamos desenvolver
 um padrão inicial para cada player, ou vamos fazer com que ele ganhe pontos para gastar com quais atributos ele mais deseja. Esses atributos vão influencia bastante no jogo. Por exemplo: Caso o player opte em ser um cara com 100 de armadura, que vai ser um dos atributos adicionados, então ele vai ser considerado um tanque. Danos como armas, socos ou quaisquer coisas nesse estilo, não causaram muito efeito nesse player, porém, outro atributo é resistência mágica e se o player optou em armadura, a resistência mágica dele é muito baixa, sendo assim ele vai morrer muito fácil para magia.
 	
 **OFENCISO**
@@ -88,7 +88,7 @@ um padrão inicial para cada player, ou vamos fazer com que ele ganhe pontos par
 
 ### Inventário e Itens
 
- 	Precisamos criar um inventário com 9 slots(Ou menos), onde vai colocado os itens encontrados em grupo, podemos definir se os itens vão ser gerados igualmente para os participantes ou quem abrir o baú vai encontrar. Quando um item é encontrado ele é adicionado em um slot vazio, o player pode usar esse item durante. Caso o slot esteja cheio ele pode ou comprar um bolsa (Porém, nas versões futuras) ou jogar o item fora.
+Precisamos criar um inventário com 9 slots(Ou menos), onde vai colocado os itens encontrados em grupo, podemos definir se os itens vão ser gerados igualmente para os participantes ou quem abrir o baú vai encontrar. Quando um item é encontrado ele é adicionado em um slot vazio, o player pode usar esse item durante. Caso o slot esteja cheio ele pode ou comprar um bolsa (Porém, nas versões futuras) ou jogar o item fora.
 
 **OFENSIVO**
 
@@ -129,7 +129,7 @@ Além dos níveis dos monstros, temos também a tipo de monstro, habilidade e ca
 
 ### Posicionamento
 
-	O sistema de posicionamento foi adicionado para cada personagem antes da luta escolher um lugar para se 
+O sistema de posicionamento foi adicionado para cada personagem antes da luta escolher um lugar para se 
 posicionar antes de uma luta, para criar uma dinâmica de classes uteis como tanque na frente, soldados 
 atrás dos tanques, magos atrás com suporte ao lado.
 	
