@@ -1,5 +1,8 @@
-# gerenciadorRPG
-  Tem muitos gerenciadores de jogos de RPG e muito bom ainda por cima, porém, alguns são pagos ou totalmente em inglês. Então, não quero fazer um projeto grande.
+# gerenciador de RPG - PROGRAMAÇÃO
+
+  Aqui vamos detalhar algumas tarefas que o programador
+  ter que desenvolver e pensar na hora de programar,
+  como desenvolvimento do chat e etc.
   
 ## Missões
 
@@ -13,7 +16,7 @@
 - [ ] Criar um sistema de Monstro
 - [ ] Sistema de missões
 
-# Survive My World
+# Survive My World - SCRIPT
 
 _Esse documento é apenas uma base, tudo pode ser mudado durante a criação do jogo, número e cálculos são apenas exemplos, durante a criação que vamos realmente fazer os cálculos reais. Nem tudo que foi colocado aqui deve ser seguido como regra, mas apenas como meta que precisamos no mínimo se aproximar._
 
@@ -110,51 +113,97 @@ Menu < --------- > Sair
 
 ### Monstro
 
-	Monstros são na verdade controlados pelo mestre de mesa, ele que escolhe quem o monstro vai atacar, qual ataque o monstro vai usar e como o monstro vai se defender, a luta contra o monstro sempre vai ser em grupo. Os monstros vão ter atributos iguais os personagens, porém, claro que vão ser mais forte, já que a luta vai ser em grupo. Existem 4 níveis de monstro. (Básico, Normais, Forte e os Boss) e matando o monstro que os personagens vão aumentar seus atributos. Além dos níveis dos monstros, temos também a tipo de monstro, habilidade e características especiais de cada monstros.
+	Monstros são na verdade controlados pelo mestre de mesa, 
+	ele que escolhe quem o monstro vai atacar, qual ataque o 
+	monstro vai usar e como o monstro vai se defender, 
+	a luta contra o monstro sempre vai ser em grupo. Os monstros 
+	vão ter atributos iguais os personagens, porém, claro que vão 
+	ser mais forte, já que a luta vai ser em grupo. Existem 4 
+	níveis de monstro. (Básico, Normais, Forte e os Boss) e 
+	matando o monstro que os personagens vão aumentar seus atributos. 
+	Além dos níveis dos monstros, temos também a tipo de monstro, 
+	habilidade e características especiais de cada monstros.
 
 **OBSERVAÇÕES**
 
-	- Temos monstro que foca um alvo e temos monstro que ataque em área, os que focam um alvo devera focar primeiramente o personagem que está na frente e vai causar todo o dano que ele tem, já o que ataca quem área vai dividir o dano nós três da frente, mas sendo o maior dano no da frente.
-	- Temos habilidade de cada monstro, onde eles podem causar paralisia, sangramento, loucura, cura... Que escolhe quando usar essa habilidade é o mestre.
-	- Temos também cada tipo de monstro os que dão dano mágico, os que dão dano fico, os que tem os dois e os que roubam vida dos oponentes.
+	- Temos monstro que foca um alvo e temos monstro que 
+	ataque em área, os que focam um alvo devera focar 
+	primeiramente o personagem que está na frente e vai 
+	causar todo o dano que ele tem, já o que ataca quem 
+	área vai dividir o dano nós três da frente, mas sendo 
+	o maior dano no da frente.
+	- Temos habilidade de cada monstro, onde eles podem 
+	causar paralisia, sangramento, loucura, cura... Que 
+	escolhe quando usar essa habilidade é o mestre.
+	- Temos também cada tipo de monstro os que dão dano 
+	mágico, os que dão dano fico, os que tem os dois e 
+	os que roubam vida dos oponentes.
 
 ### Posicionamento
 
-	O sistema de posicionamento foi adicionado para cada personagem antes da luta escolher um lugar para se posicionar antes de uma luta, para criar uma dinâmica de classes uteis como tanque na frente, soldados atrás dos tanques, magos atrás com suporte ao lado.
+	O sistema de posicionamento foi adicionado para cada 
+	personagem antes da luta escolher um lugar para se 
+	posicionar antes de uma luta, para criar uma dinâmica 
+	de classes uteis como tanque na frente, soldados 
+	atrás dos tanques, magos atrás com suporte ao lado.
 	
-	Uma vez que os monstros atacaram quem estão na frente, ou seja, os tanques e soldados que tem mais resistência. E suporte e magos vão dar dano ou vida adicional.
+	Uma vez que os monstros atacaram quem estão na frente, 
+	ou seja, os tanques e soldados que tem mais resistência. 
+	E suporte e magos vão dar dano ou vida adicional.
 
  
 ### Condições
 
-	Condições são estados alterados do personagem, causados por uma situação, devido a algum ataque de um monstro.
+	Condições são estados alterados do personagem, causados
+	por uma situação, devido a algum ataque de um monstro.
 
 **Ruins**
 
-	- Atordoado: Você fica parado sem poder atacar por dois ou três turnos.
-	- Loucura: Você ataca um dos aliados mais próximo por dois turnos.
-	- Cego: Você ainda pode atacar, mas não vai poder escolher em quem e pode atingir um de seus amigos. Dura dois turnos.
-	- Preso: Você não pode se mover então sofrerá mais dano, mas pode usar habilidade de proteção e ataque.
-	- Fraqueza: seus ataques darem menos dano e você recebera mais danos.
+	- Atordoado: Você fica parado sem poder atacar por dois 
+	ou três turnos.
+	- Loucura: Você ataca um dos aliados mais próximo por
+	dois turnos.
+	- Cego: Você ainda pode atacar, mas não vai poder escolher
+	em quem e pode atingir um de seus amigos. Dura dois turnos.
+	- Preso: Você não pode se mover então sofrerá mais dano, 
+	mas pode usar habilidade de proteção e ataque.
+	- Fraqueza: seus ataques darem menos dano e você recebera
+	mais danos.
 	- Sangramento: Você leva danos aos poucos durante três turnos.
 
 **Boas**
 
 	- Invulnerável: Você não sofrerá dano durante dois turnos.
-	- Velocista: Sua agilidade aumentara, fazendo com que você não seja acertado.
-	- Invisível: Você ficara invisível e poderá atacar, sem ser atacado por tiro direcionado a você.
+	- Velocista: Sua agilidade aumentara, fazendo com que você
+	não seja acertado.
+	- Invisível: Você ficara invisível e poderá atacar, sem ser
+	atacado por tiro direcionado a você.
 	- Vingador: Você vai retribuir todo o dano que você levou.
-	- Absorção: Você vai absorver todo o dano causado em você durante dois turnos e vai mandar de voltar. 
+	- Absorção: Você vai absorver todo o dano causado em você 
+	durante dois turnos e vai mandar de voltar. 
 
 ### Classes
 
-	As classes vão deixar o RPG mais interessante e foi o mais recomendado para adicionar ao RPG, então vamos tentar adicionar algumas classes dependendo dos ambientes escolhidos para ele. Temos algumas classes com algumas habilidades e atributos exclusivos para elas, então vamos para algumas classes.
+	As classes vão deixar o RPG mais interessante e foi o mais 
+	recomendado para adicionar ao RPG, então vamos tentar adicionar
+	algumas classes dependendo dos ambientes escolhidos para ele.
+	Temos algumas classes com algumas habilidades e atributos
+	exclusivos para elas, então vamos para algumas classes.
 
-	- Espadachim: Agilidade+, Ataque+ (Habilidades: Q- Dash em direção ao inimigo causando dano | Ult- Acerta quatro golpes rápidos e causa 4x, o dano)
+	1. Espadachim: Agilidade+, Ataque+ 
+	* Q- Dash em direção ao inimigo causando dano
+	* Ult- Acerta quatro golpes rápidos e causa 4x, o dano)
 
-	- Necromante: +Magia +Resistência Mágica (Habilidades: Q- Amaldiçoa um corpo (fraqueza)|Ult – ressuscita seus aliados por 2 turnos)
+	2. Necromante: +Magia +Resistência Mágica 
+	* Q- Amaldiçoa um corpo (fraqueza)
+	* Ult – ressuscita seus aliados por 2 turnos)
 
 
 ### Lutas
 
-	O sistema de luta vai ser o mais difícil, pois, nele que vamos adicionar a parte que vai ter a mecânica do jogo, a luta de turnos, onde cada um ter sua vez de jogar e tem também as habilidades, classes e itens que vão ajudar a matar o monstro e ganhar experiência para passar desafios futuros. 
+	O sistema de luta vai ser o mais difícil, pois, nele que
+	vamos adicionar a parte que vai ter a mecânica do jogo,
+	a luta de turnos, onde cada um ter sua vez de jogar e 
+	tem também as habilidades, classes e itens que vão 
+	ajudar a matar o monstro e ganhar experiência para passar
+	desafios futuros. 
