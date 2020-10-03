@@ -119,15 +119,13 @@ Menu < --------- > Sair
 	níveis de monstro. (Básico, Normais, Forte e os Boss) e matando o monstro que os personagens vão aumentar seus atributos. 
 	Além dos níveis dos monstros, temos também a tipo de monstro, habilidade e características especiais de cada monstros.
 
-**OBSERVAÇÕES**
+#### OBSERVAÇÕES
 
-	- Temos monstro que foca um alvo e temos monstro que ataque em área, os que focam um alvo devera focar primeiramente o
-	personagem que está na frente e vai causar todo o dano que ele tem, já o que ataca quem área vai dividir o dano nós 
-	três da frente, mas sendo o maior dano no da frente.
-	- Temos habilidade de cada monstro, onde eles podem causar paralisia, sangramento, loucura, cura... Que escolhe quando
-	usar essa habilidade é o mestre.
-	- Temos também cada tipo de monstro os que dão dano mágico, os que dão dano fico, os que tem os dois e os que roubam
-	vida dos oponentes.
+	- Temos monstro que foca um alvo e temos monstro que ataque em área, os que focam um alvo devera focar primeiramente o personagem que está na frente e vai causar todo o dano que ele tem, já o que ataca quem área vai dividir o dano nós três da frente, mas sendo o maior dano no da frente.
+	
+	- Temos habilidade de cada monstro, onde eles podem causar paralisia, sangramento, loucura, cura... Que escolhe quando usar essa habilidade é o mestre.
+	
+	- Temos também cada tipo de monstro os que dão dano mágico, os que dão dano fico, os que tem os dois e os que roubam vida dos oponentes.
 
 ### Posicionamento
 
@@ -175,8 +173,8 @@ Menu < --------- > Sair
 	algumas habilidades e atributos exclusivos para elas, então vamos para algumas classes.
 
 	1. Espadachim: Agilidade+, Ataque+ 
-	* Q- Dash em direção ao inimigo causando dano
-	* Ult- Acerta quatro golpes rápidos e causa 4x, o dano)
+	* Q- Dash em direção ao inimigo causando dano.
+	* Ult- Acerta quatro golpes rápidos e causa 4x, o dano).
 
 	2. Necromante: +Magia +Resistência Mágica 
 	* Q- Amaldiçoa um corpo (fraqueza)
