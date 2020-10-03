@@ -24,7 +24,7 @@ _Esse documento é apenas uma base, tudo pode ser mudado durante a criação do 
 
 **Janela:** Seria interessante uma janela dividida ao meio uma para o chat e a outra parte para a situações que vão ser ilustradas. Isso na tela dos roleplayers, mas o mestre vai ser uma parte para o chat e outra para as opções que eles vão controlar a história dos roleplayers.
 
-**Mecânicas:**
+## Mecânicas:
 
 **Roleplayer:**
 - Conversar no chat com os outros Player
