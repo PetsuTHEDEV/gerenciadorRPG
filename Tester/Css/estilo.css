@@ -1,0 +1,154 @@
+@charset "UTF-8";
+@font-face{
+    font-family: 'fonte-medieval';
+    src: url(../Fontes/Seagram.ttf);
+}
+    body{
+        background-color: #2a304e;
+    }
+
+    /* Formatação de Titulos*/
+
+    h1 {
+        font-family: arial;
+        font-size: 20pt;
+        color:black;
+    }
+    h2 {
+        font-family: arial;
+        font-size: 15pt;
+        color: gray;
+    }
+
+    h2#titulo-legenda {
+        font-family: arial;
+        font-size: 15pt;
+        color: white;
+    }
+
+    /* Formatação de imagens com legendas */
+
+    figure.foto-legenda{
+        position: relative;
+        box-shadow: 1px 1px 4px black;
+        width: 200px;
+        height: 200px;
+    }
+
+    figure.foto-legenda img{ 
+        width: 100%;
+        height: 100%;
+    }
+
+    figure.foto-legenda figcaption{
+        opacity: 0;
+        position: absolute;
+        top: 0px;
+        background-color: rgba(0,0,0,.4);
+        width: 100%;
+        height: 100%;
+        color: white;
+        padding: 10px;
+        box-sizing: border-box;
+        transition: opacity .5s;
+    }
+
+    figure:hover figcaption{
+        opacity: 1;
+    }
+
+    /* Formatação de Menu*/
+
+    nav#menu {
+        display: block;
+    }
+
+    nav#menu ul{
+        list-style: none;
+        text-transform: uppercase;
+        position: absolute;
+        top: -20px;
+        left: 650px;
+    }
+
+    nav#menu h1{
+        display: none;
+    }
+
+    nav#menu li{
+        display: inline-block;
+        background-color: #dddddd;
+        padding: 10px;
+        margin: 2px;
+    }
+
+    nav#menu li:hover{
+        background-color: #606060;
+        transition: background-color .5s;
+    }
+
+    nav#menu a{
+        color: black;
+        text-decoration: none;
+    }
+
+    nav#menu a:hover{
+        color:white;
+    }
+
+    /* Formatação Interface */
+
+    div#interface {
+        width: 1200px;
+        background-color: white;
+        margin: -20px auto -50px auto;
+        box-shadow: 0px 0px 10px rgba(0,0,0,.4);
+        padding: 10px;
+    }
+
+    /* Formatação do Cabeçalho */
+
+    header#cabecalho{
+
+        border-bottom: 1px gray solid;
+    }
+
+    header#cabecalho h1{
+        font-family: fonte-medieval;
+        font-size: 25pt;
+        color: #606060;
+        text-shadow: 1px 1px 1px rgba(0,0,0,.6);
+        padding: 0px;
+        margin-bottom: 0px;
+    }
+
+    
+    header#cabecalho h2{
+        font-family: arial, sans-serif;
+        font-size: 15pt;
+        color: #888888;
+        margin-top: 0px;
+    }
+
+    /* Formatação de Semântica */
+
+    section#corpo{
+        display: block;
+        width: 600px;
+        float: left;
+        border-right: 1px solid #606060;
+        padding-right: 15px;
+    }
+
+    aside#lateral{
+        display: block;
+        width: 450px;
+        float: right;
+    }
+
+    footer#rodape{
+        clear: both;
+        text-align: center;
+        border-top: 1px solid #606060;
+    }
+
