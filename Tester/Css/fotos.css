@@ -1,9 +1,11 @@
 @charset "UTF-8";
 
     /* Formatação das Imagens */
-    ul#album-fotos{
+
+    ul{
         list-style: none;
-        float: left;
+        display: block;
+        float: right;
     }
 
     li img{
@@ -11,12 +13,7 @@
         width: 20%;
         height: 20%;
     }
-
-    li.cabecalho{
-        position: absolute;
-        top: 0px;
-    }
-
+ 
     /* Formatação de Menu*/
 
     nav#menu {
@@ -63,10 +60,10 @@
         text-align: center;
         border-top: 1px solid #606060;
     }
-    
+
     /* Formatação Interface */
 
-    div#interface {
+    div#interface-fotos{
         width: 1200px;
         background-color: white;
         margin: -20px auto -50px auto;
