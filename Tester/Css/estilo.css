@@ -96,16 +96,6 @@
         color:white;
     }
 
-    /* Formatação Interface */
-
-    div#interface {
-        width: 1200px;
-        background-color: white;
-        margin: -20px auto -50px auto;
-        box-shadow: 0px 0px 10px rgba(0,0,0,.4);
-        padding: 10px;
-    }
-
     /* Formatação do Cabeçalho */
 
     header#cabecalho{
@@ -121,13 +111,22 @@
         padding: 0px;
         margin-bottom: 0px;
     }
-
     
     header#cabecalho h2{
         font-family: arial, sans-serif;
         font-size: 15pt;
         color: #888888;
         margin-top: 0px;
+    }
+    
+    /* Formatação Interface */
+
+    div#interface {
+        width: 1200px;
+        background-color: white;
+        margin: -20px auto -50px auto;
+        box-shadow: 0px 0px 10px rgba(0,0,0,.4);
+        padding: 10px;
     }
 
     /* Formatação de Semântica */
@@ -137,13 +136,32 @@
         width: 600px;
         float: left;
         border-right: 1px solid #606060;
+        padding-right: 30px;
+    }
+
+    section#corpo p{
         padding-right: 15px;
+        padding-left: 15px;
     }
 
     aside#lateral{
         display: block;
         width: 450px;
+        height: 500px;
         float: right;
+        background-color: rgba(54, 48, 48, 0.507);
+        position: absolute;
+        top: 110px;
+        left: 750px;
+    }
+
+    aside#lateral h2{
+        color: black;
+        padding-left: 20px;
+    }
+
+    aside#lateral p{
+        padding: 10px 20px 10px 20px;
     }
 
     footer#rodape{
@@ -152,3 +170,12 @@
         border-top: 1px solid #606060;
     }
 
+    /* Formatação do Artigo */
+
+    article#noticia-principal h2{
+        font-size: 12pt;
+        color: #606060;
+        background-color: #dddddd;
+        padding: 5px 0px 5px 10px;
+        margin: 10px;
+    }
