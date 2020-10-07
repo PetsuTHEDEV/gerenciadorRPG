@@ -8,57 +8,28 @@
         float: right;
     }
 
+    ul li {
+        float: left;
+    }
+
     li img{
         background-color: rgba(0,0,0,.4);
         width: 20%;
         height: 20%;
     }
- 
-    /* Formatação de Menu*/
 
-    nav#menu {
-        display: block;
+    /* Formatação de Titulos*/
+
+    header#cabecalho-fotos h1{
+        color: #606060;
+        margin-top: 20px;
+        margin-left: 50px;
     }
 
-    nav#menu ul{
-        list-style: none;
-        text-transform: uppercase;
-        position: absolute;
-        top: -20px;
-        left: 650px;
-    }
-
-    nav#menu h1{
-        display: none;
-    }
-
-    nav#menu li{
-        display: inline-block;
-        background-color: #dddddd;
-        padding: 10px;
-        margin: 2px;
-    }
-
-    nav#menu li:hover{
-        background-color: #606060;
-        transition: background-color .5s;
-    }
-
-    nav#menu a{
-        color: black;
-        text-decoration: none;
-    }
-
-    nav#menu a:hover{
-        color:white;
-    }
-
-    /* Formatação Semântica */
-
-    footer#rodape{
-        clear: both;
-        text-align: center;
-        border-top: 1px solid #606060;
+    header#cabecalho-fotos h2{
+        color: #606060;
+        margin-top: 20px;
+        margin-left: 50px;
     }
 
     /* Formatação Interface */

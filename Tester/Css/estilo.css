@@ -60,7 +60,7 @@
 
     /* Formatação de Menu*/
 
-    nav#menu {
+    nav#menu{
         display: block;
     }
 
@@ -100,7 +100,6 @@
     /* Formatação do Cabeçalho */
 
     header#cabecalho{
-
         border-bottom: 1px gray solid;
     }
 
@@ -147,13 +146,12 @@
 
     aside#lateral{
         display: block;
-        width: 450px;
+        width: 480px;
         height: 500px;
         float: right;
         background-color: rgba(54, 48, 48, 0.507);
-        position: absolute;
-        top: 110px;
-        left: 750px;
+        position: relative;
+        left: -42px;
     }
 
     aside#lateral h2{
