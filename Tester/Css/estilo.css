@@ -29,6 +29,7 @@
     /* Formatação de imagens com legendas */
 
     figure.foto-legenda{
+        display: block;
         position: relative;
         box-shadow: 1px 1px 4px black;
         width: 200px;
