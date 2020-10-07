@@ -122,7 +122,7 @@
     /* Formatação Interface */
 
     div#interface {
-        width: 1200px;
+        width: 1100px;
         background-color: white;
         margin: -20px auto -50px auto;
         box-shadow: 0px 0px 10px rgba(0,0,0,.4);
@@ -146,12 +146,12 @@
 
     aside#lateral{
         display: block;
-        width: 480px;
+        width: 400px;
         height: 500px;
         float: right;
         background-color: rgba(54, 48, 48, 0.507);
         position: relative;
-        left: -42px;
+        left: -30px;
     }
 
     aside#lateral h2{
@@ -171,7 +171,7 @@
 
     /* Formatação do Artigo */
 
-    article#noticia-principal h2{
+    article.artigo h2{
         font-size: 12pt;
         color: #606060;
         background-color: #dddddd;
