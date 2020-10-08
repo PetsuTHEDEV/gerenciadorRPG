@@ -5,14 +5,23 @@
     ul#album-fotos{
         list-style: none;
         padding-left: 130px;
+        overflow: visible;
     }
 
     ul#album-fotos li {
+        margin: 3px;
         float: left;
+        transition: -webkit-transform .5s;
+
+    }
+
+    ul#album-fotos li:hover{
+        -webkit-transform: scale(1.5);
     }
 
     ul#album-fotos li img{
-        background-color: rgba(0,0,0,.4);
+        border: 5px solid black;
+        box-shadow: 1px 1px 20px gray;
     }
 
     /* Formatação de Titulos*/
