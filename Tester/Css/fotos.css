@@ -5,7 +5,7 @@
     ul#album-fotos{
         list-style: none;
         padding-left: 130px;
-        overflow: hidden;
+        overflow: relative;
     }
 
     ul#album-fotos li{
@@ -15,7 +15,7 @@
     }
 
     ul#album-fotos li:hover{
-        -webkit-transform: scale(1.5);
+        -webkit-transform: scale(1.2);
     }
 
     ul#album-fotos li img{
